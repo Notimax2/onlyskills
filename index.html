@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de clés KeyAuth</title>
+</head>
+<body>
+    <h1>Obtenez votre clé KeyAuth</h1>
+    <form action="generate_key.php" method="get">
+        <input type="hidden" name="from_linkvertise" value="true"> <!-- Paramètre caché -->
+        <label for="name">Nom du client :</label>
+        <input type="text" id="name" name="name" required>
+        <input type="submit" value="Générer la clé">
+    </form>
+</body>
+</html>
